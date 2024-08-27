@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="product.css">
+    <script src="product.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cart-left">
+            <div class="main-img">
+                <img src="./media/a.jpg" calss="pictures">
+                <img src="./media/eeee.avif" calss="pictures">
+                <img src="./media/d.jpg" calss="pictures">
+                <img src="./media/eeee.avif" calss="pictures">
+            </div>
+            <div class="click-img">
+                <div class="show-img" data-id="1"><img src="./media/a.jpg" ></div>
+                <div class="show-img" data-id="2"><img src="./media/eeee.avif" ></div>
+                <div class="show-img" data-id="3"><img src="./media/d.jpg" ></div>
+                <div class="show-img" data-id="4"><img src="./media/eeee.avif" ></div>
+            </div>
+        </div>
+       <div class="cart-right">
+            <h2>variable product</h2>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>3 reviews</span>
+            </div>
+            <div class="rupee">$39.00 <span>$50.00</span></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.laudantium aspernatur sunt autem amet, neque cumque expedita eius quos atque corrupti, cum id repellat? Similique, illum. Tempora adipisci molestias consequatur eos, tempore in quas id incidunt!</p>
+            <div class="frm">
+            <div class="col-iden">
+               <div>color</div>
+               <select>
+                   <option>blue</option>
+               </select>
+            </div> 
+            <div class="quantity">
+                <div id="ty">quantity</div>
+                <div class="flex">
+                <button id="minus">-</button>
+                <input type="text" id="product" value="1">
+                <button id="plus">+</button>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="btn">add cart</button>
+        </div>
+    </div>
+</body>
+</html>
